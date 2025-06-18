@@ -1,0 +1,650 @@
+/* Paleta de Colores Propuesta (Contraste y Estilo Oscuro):
+   - Fondo General (body): #1C2833 (Gris azulado muy oscuro, casi negro)
+   - Fondo Categoría: #212F3D (Gris azulado oscuro, un poco más claro que el fondo)
+   - Contenedor/Tarjetas Producto: #2E4053 (Gris azulado medio, más claro que el fondo cat.)
+   - Contenido Modal: #34495E (Gris azulado un poco más claro que las tarjetas)
+   - Texto Principal (Títulos, Nombres Producto): #ECF0F1 (Gris casi blanco)
+   - Texto Secundario (Descripciones, Características): #BDC3C7 (Gris claro)
+   - Bordes/Líneas Separadoras: #566573 (Gris azulado medio) O #000000 (Negro puro si se necesita más fuerza)
+   - Acento (Botón WhatsApp, Títulos Secundarios, Tu Nombre): #2ECC71 (Verde brillante, material design)
+   - Acento Hover (Botón WhatsApp): #28B463 (Verde un poco más oscuro)
+   - Fondo Oscuro Modal Overlay: rgba(0, 0, 0, 0.8) (Negro semi-transparente)
+*/
+
+
+/* Estilos básicos para el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente más moderna si tienes acceso o pruena 'Arial' */
+    margin: 0;
+    padding: 0; /* Quitamos el padding aquí para controlarlo mejor en .container */
+    background-color: #1C2833; /* Fondo gris azulado muy oscuro */
+    color: #ECF0F1; /* Texto gris casi blanco por defecto */
+    line-height: 1.6;
+    overflow-x: hidden; /* Evita scroll horizontal no deseado */
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px; /* Padding arriba/abajo y a los lados */
+}
+
+/* Título principal del catálogo */
+h1 {
+    text-align: center;
+    color: #2ECC71; /* Verde brillante como acento */
+    margin-bottom: 50px; /* Más espacio */
+    font-size: 3.2em; /* Tamaño grande */
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(46, 204, 113, 0.6); /* Sombra sutil verde */
+    letter-spacing: 1.5px;
+    border-bottom: 3px solid #2ECC71; /* Línea de acento debajo del título */
+    display: inline-block; /* Para que la línea ocupe solo el ancho del texto */
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Para que se centre */
+}
+
+/* Estilo para el párrafo introductorio debajo del título principal */
+body > .container > p { /* Selecciona el primer párrafo directo dentro del container */
+     text-align: center;
+     color: #BDC3C7; /* Gris claro */
+     font-size: 1.1em;
+     margin-top: -30px; /* Lo subimos un poco para que esté cerca del título */
+     margin-bottom: 40px;
+}
+
+
+/* Estilo para cada sección de categoría */
+.category-section {
+    margin-bottom: 60px; /* Más espacio después de cada sección */
+    background-color: #212F3D; /* Fondo de categoría un poco diferente */
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #566573; /* Borde gris azulado */
+}
+
+/* Estilo para el título de cada categoría */
+.category-section h2 {
+    text-align: center;
+    color: #ECF0F1; /* Gris casi blanco para títulos de categoría */
+    margin-top: 0;
+    margin-bottom: 40px; /* Más espacio debajo */
+    border-bottom: 2px solid #566573; /* Línea gris azulado */
+    padding-bottom: 15px;
+    font-size: 2.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* Contenedor de la lista de productos (usando Flexbox) */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Más espacio entre productos */
+    justify-content: center;
+}
+
+/* Estilo para cada bloque de producto (hecho clickeable) */
+.product {
+    background-color: #2E4053; /* Gris azulado medio para las tarjetas */
+    border: 1px solid #566573; /* Borde gris azulado */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 280px; /* Ancho estándar */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Sombra */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre el producto */
+.product:hover {
+    transform: translateY(-10px); /* Se mueve más al pasar el mouse */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); /* Sombra más grande y oscura */
+    background-color: #34495E; /* Un poco más claro/diferente al pasar el mouse */
+}
+
+
+/* Estilo para las imágenes de producto en la vista de catálogo */
+.product img {
+    max-width: 100%;
+    height: 180px; /* Altura fija */
+    object-fit: contain; /* !!! Muestra la imagen completa, sin recortar !!! */
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 2px solid #566573; /* Borde más visible */
+    /* Opcional: Fondo blanco para las imágenes en la vista de catálogo si object-fit: contain deja espacio */
+    /* background-color: #ffffff; */
+}
+
+/* Estilo para el nombre del producto */
+.product h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #ECF0F1; /* Gris casi blanco */
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+/* Estilo para la descripción corta del producto */
+.product p {
+    color: #BDC3C7; /* Gris claro */
+    font-size: 1em;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+/* Estilo para el botón "Solicitar Presupuesto" (que es un enlace) */
+.quote-button {
+    display: inline-block;
+    background-color: #2ECC71; /* Verde brillante */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    border: none; /* Asegurarse que no tenga borde por defecto */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+.quote-button:hover {
+    background-color: #28B463; /* Verde un poco más oscuro */
+    transform: scale(1.05);
+}
+
+/* --- Estilos para el Modal de Detalles --- */
+
+/* Estilo para el fondo oscuro del modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Z-index alto */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Negro más opaco */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease; /* Transición más suave */
+    pointer-events: none;
+}
+
+/* Estilo para mostrar el modal */
+.modal.show-modal {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #34495E; /* Gris azulado más claro para el contenido del modal */
+    margin: 5% auto;
+    padding: 35px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 750px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Sombra más intensa */
+    border: 1px solid #566573; /* Borde */
+    /* Usamos flexbox aquí también para organizar galería y texto/detalles */
+    display: flex;
+    flex-direction: column; /* Apilamos elementos */
+    align-items: center; /* Centramos horizontalmente */
+}
+
+/* Sección para la Galería de Imágenes dentro del Modal */
+.modal-image-gallery {
+    position: relative; /* Para posicionar las flechas y el botón de ampliar */
+    width: 100%; /* Ocupa todo el ancho del modal-content (con padding) */
+    max-width: 500px; /* Ancho máximo de la galería */
+    margin: 0 auto 25px auto; /* Centrar y espacio abajo */
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #566573;
+    flex-shrink: 0; /* Evita que se encoja si el contenido de texto es largo */
+    background-color: #ffffff; /* Fondo blanco para la galería */
+}
+
+/* Estilo para la imagen principal dentro de la galería del modal */
+#modal-product-image {
+    display: block;
+    width: 100%; /* Ocupa todo el ancho de su contenedor */
+    height: 350px; /* Altura fija para las imágenes en la galería (ajustable) */
+    object-fit: contain; /* Muestra la imagen completa, sin cortar */
+    transition: opacity 0.5s ease; /* Transición suave al cambiar de imagen */
+}
+
+/* Estilo para los botones de navegación (flechas) */
+.gallery-nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente oscuro */
+    color: #ECF0F1; /* Gris casi blanco */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 10;
+    outline: none; /* Asegura que no se vea el foco azul al hacer clic */
+}
+
+.gallery-nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo más oscuro al pasar el mouse */
+     color: #ffffff; /* Blanco puro al pasar el mouse */
+}
+
+/* Posicionamiento específico de las flechas */
+.gallery-nav-button.prev {
+    left: 10px;
+}
+
+.gallery-nav-button.next {
+    right: 10px;
+}
+
+/* Estilo para los indicadores de imagen (puntitos) */
+.gallery-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    display: flex; /* Añadido display flex para centrar puntitos */
+    justify-content: center; /* Centrar puntitos */
+}
+
+.gallery-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background-color: rgba(236, 240, 241, 0.5); /* Color del texto principal semi-transparente */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gallery-indicator.active {
+    background-color: #2ECC71; /* Verde brillante para el puntito activo */
+}
+
+/* --- Estilo para el Botón de Ampliar Imagen dentro del Modal --- */
+.amplify-button {
+    position: absolute;
+    bottom: 10px; /* Posicionado en la parte inferior */
+    right: 10px; /* Posicionado en la parte derecha */
+    background-color: rgba(46, 204, 113, 0.8); /* Verde de acento semi-transparente */
+    color: white;
+    border: none;
+    padding: 5px 10px; /* Padding pequeño */
+    cursor: pointer;
+    font-size: 0.9em; /* Fuente pequeña */
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 10; /* Asegura que esté por encima de la imagen */
+    outline: none; /* Asegura que no se vea el foco azul al hacer clic */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.amplify-button:hover {
+    background-color: rgba(46, 204, 113, 1); /* Verde de acento más opaco al pasar el mouse */
+    transform: scale(1.1); /* Ligeramente más grande */
+}
+
+
+/* Estilos para el contenido del modal (texto, características, nombre asesor, botón) */
+/* Estos elementos ahora están después de modal-image-gallery dentro del modal-content */
+
+.modal-content h3 {
+    color: #ECF0F1;
+    margin-top: 20px; /* Ajustado */
+    margin-bottom: 15px; /* Ajustado */
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    width: 100%; /* Para que el texto largo no fuerce el layout */
+}
+
+.modal-content p {
+    color: #BDC3C7;
+    margin-bottom: 20px; /* Ajustado */
+    text-align: left;
+    font-size: 1.1em;
+    width: 100%; /* Para que el texto largo no fuerce el layout */
+}
+
+/* Estilo para la sección de características */
+#modal-product-characteristics {
+     width: 100%; /* Para que la sección ocupe todo el ancho disponible */
+}
+
+#modal-product-characteristics h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #ECF0F1;
+    font-size: 1.2em;
+}
+
+#modal-product-characteristics ul {
+    list-style: disc inside;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#modal-product-characteristics ul li {
+    margin-bottom: 8px;
+    color: #BDC3C7;
+    font-size: 1em;
+}
+
+/* Estilo para el nombre del asesor en el modal */
+.advisor-name {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 25px; /* Ajustado */
+    color: #2ECC71;
+    font-size: 1.2em;
+    width: 100%; /* Para que ocupe todo el ancho */
+}
+
+/* Estilo para el botón de presupuesto dentro del modal */
+.modal-content .quote-button {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    padding: 14px 20px;
+     width: auto; /* Ancho automático según el contenido */
+    max-width: 300px; /* Ancho máximo para no ser demasiado grande */
+    margin-left: auto; /* Para centrar el botón */
+    margin-right: auto; /* Para centrar el botón */
+}
+
+
+/* --- ESTILOS PARA LA CAPA DE AMPLIACIÓN DE IMAGEN (FUNCIONAL EN MÓVILES) --- */
+.amplify-overlay {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Posición fija en la pantalla */
+    z-index: 2000; /* Z-index MUY ALTO, por encima del modal normal */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    overflow: auto; /* Permite scroll si la imagen es más grande que la pantalla */
+    background-color: rgba(0, 0, 0, 0.95); /* Fondo casi negro, muy opaco */
+    /* Para transiciones (opcional) */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    pointer-events: none; /* No bloquea clics cuando está oculto */
+
+    /* Flexbox para centrar el contenido (la imagen) */
+    /* No usamos display: flex; aquí por defecto, lo activamos con show-overlay para la transición */
+    /* display: flex; */ /* Esto lo activamos en .show-overlay */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilo para mostrar la capa de ampliación */
+.amplify-overlay.show-overlay {
+    display: flex; /* Usa flexbox para mostrar y centrar */
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* Estilo para la imagen dentro de la capa de ampliación */
+#amplified-image {
+    display: block;
+    max-width: 95%; /* Ancho máximo del 95% de la pantalla */
+    max-height: 95%; /* Alto máximo del 95% de la pantalla */
+    width: auto; /* Ancho automático para mantener proporción */
+    height: auto; /* Alto automático para mantener proporción */
+    object-fit: contain; /* Asegura que la imagen completa se vea sin cortar */
+    background-color: #ffffff; /* Fondo blanco si la imagen no ocupa todo el espacio */
+    border-radius: 8px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Sombra */
+}
+
+/* Botón para cerrar la capa de ampliación */
+.close-overlay-button {
+    color: #ECF0F1; /* Gris casi blanco */
+    font-size: 40px; /* Tamaño grande */
+    font-weight: bold;
+    position: absolute; /* Posicionamiento absoluto */
+    top: 20px; /* Desde arriba */
+    right: 20px; /* Desde la derecha */
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    z-index: 2010; /* Z-index más alto que la imagen */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra sutil en el botón */
+     outline: none; /* Asegura que no se vea el foco azul */
+}
+
+.close-overlay-button:hover {
+    color: #ffffff; /* Blanco puro al pasar el mouse */
+    transform: rotate(90deg); /* Gira un poco al pasar el mouse */
+}
+
+
+/* Media queries para ajustar en pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: 2.5em; /* Ajuste */
+        margin-bottom: 30px;
+        padding-bottom: 8px;
+         letter-spacing: 1px;
+    }
+
+    body > .container > p {
+        font-size: 1em;
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
+
+
+    .category-section {
+         padding: 20px;
+         margin-bottom: 40px; /* Ajuste */
+    }
+
+    .category-section h2 {
+        font-size: 1.8em; /* Ajuste */
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        letter-spacing: normal;
+    }
+
+    .product-list {
+        gap: 20px;
+    }
+
+    .product {
+        width: calc(50% - 10px); /* 2 productos por fila en pantallas medianas */
+        min-width: 180px;
+        padding: 15px;
+    }
+
+    .product img {
+         height: 160px; /* Ajustar altura */
+         margin-bottom: 10px;
+     }
+
+     .product h3 {
+         font-size: 1.1em;
+     }
+
+     .product p {
+         font-size: 0.9em;
+         margin-bottom: 10px;
+     }
+
+
+    .modal-content {
+        width: 95%;
+        margin: 5% auto; /* Ajuste */
+        padding: 20px; /* Ajuste */
+    }
+
+    .modal-image-gallery {
+         max-width: 100%; /* Permitir que ocupe más ancho en móviles */
+         margin-bottom: 20px;
+         border-radius: 4px; /* Bordes más pequeños */
+     }
+
+     #modal-product-image {
+        height: 250px; /* Altura fija ajustada para móviles */
+     }
+
+     .gallery-nav-button {
+         padding: 6px 10px;
+         font-size: 1.2em;
+     }
+
+     .gallery-indicators {
+         width: 100%; /* Ancho completo para centrar bien en móvil */
+     }
+
+     .gallery-indicator {
+         width: 8px;
+         height: 8px;
+         margin: 0 3px;
+     }
+
+
+    .amplify-button {
+        padding: 4px 8px;
+        font-size: 0.8em;
+        bottom: 5px;
+        right: 5px;
+    }
+
+
+    .modal-content h3 {
+        font-size: 1.5em; /* Ajuste */
+         margin-bottom: 15px;
+    }
+
+     .modal-content p {
+         font-size: 1em;
+          margin-bottom: 20px;
+     }
+
+     #modal-product-characteristics h4 {
+         font-size: 1.1em;
+     }
+
+     #modal-product-characteristics ul li {
+         font-size: 0.95em; /* Ajuste */
+     }
+
+    .advisor-name {
+        font-size: 1em;
+         margin-top: 20px;
+    }
+
+    .modal-content .quote-button {
+         font-size: 1.1em;
+         padding: 10px 15px;
+         margin-top: 20px;
+         max-width: none; /* Quitar ancho máximo en móvil si quieres que sea más ancho */
+    }
+}
+
+@media (max-width: 480px) {
+     .product {
+         width: 100%; /* 1 producto por fila */
+         margin: 0 auto;
+         padding: 20px;
+     }
+
+     .product-list {
+         gap: 20px;
+     }
+
+     .product img {
+        height: 200px; /* Un poco más grandes en móvil */
+     }
+
+    .modal-content {
+        margin: 5% auto;
+        padding: 15px; /* Ajuste */
+    }
+
+    .modal-image-gallery {
+        margin-bottom: 15px;
+    }
+
+     #modal-product-image {
+        height: 220px; /* Ajuste altura */
+     }
+
+     .gallery-nav-button {
+         padding: 4px 8px;
+         font-size: 1em;
+     }
+
+
+    .amplify-button {
+        padding: 4px 8px;
+        font-size: 0.8em;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .modal-content h3 {
+        font-size: 1.4em;
+         margin-bottom: 10px;
+    }
+
+    .modal-content p {
+         font-size: 0.9em;
+          margin-bottom: 15px;
+    }
+
+    #modal-product-characteristics h4 {
+         font-size: 1em;
+    }
+
+     #modal-product-characteristics ul li {
+         font-size: 0.85em;
+     }
+
+     .advisor-name {
+         font-size: 0.9em;
+         margin-top: 15px;
+     }
+
+    .modal-content .quote-button {
+         font-size: 1em;
+         padding: 8px 12px;
+         margin-top: 15px;
+    }
+}
