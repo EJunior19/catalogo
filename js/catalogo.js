@@ -1218,6 +1218,46 @@ const productsData = [
              '🔹 Profundidad: 61,5 cm'
         ]
     },
+    {
+        id: 'Ropero Fit 3.2 de Santos Andirá', // Coincide con data-id en HTML
+        name: 'Ropero Fit 3.2 de Santos Andirá', // Nombre completo
+        images: ['imagenes/Ropero Fit 3.2 de Santos Andirá.png', 'imagenes/Ropero Fit 3.2 de Santos Andirá2.jpg','imagenes/Ropero Fit 3.2 de Santos Andirá3.jpg'], // Array de rutas
+        description_full: 'El Ropero Fit 3.2 de Santos Andirá es una solución compacta y funcional para dormitorios que necesitan aprovechar el espacio sin perder estilo. Su estructura de paneles de 12 mm brinda resistencia y durabilidad, mientras que sus 3 puertas y 2 cajones permiten organizar eficientemente ropa y accesorios.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Ropero Fit 3.2 de Santos Andirá',
+             '🔹 Código: 20877',
+             '🔹 Estructura 100% en paneles de 12 mm',
+             '🔹 3 puertas y 2 cajones',
+             '🔹 Cabideiro de aluminio resistente',
+             '🔹 Corrediças metálicas en los cajones',
+             '🔹 Puxadores de PVC duraderos',
+             '🔹 Pies de PVC para mayor estabilidad',
+             '🔹 Acabado brillante en Blanco, Jequitibá y Jequitibá-Off',
+             '🔹 Altura: 191 cm',
+             '🔹 Ancho: 69,3 cm',
+             '🔹 Profundidad: 42,2 cm'
+        ]
+    },
+    {
+        id: 'Ropero Fit 3.2 de Santos Andirá', // Coincide con data-id en HTML
+        name: 'Ropero Fit 3.2 de Santos Andirá', // Nombre completo
+        images: ['imagenes/Ropero Fit 3.2 de Santos Andirá.png', 'imagenes/Ropero Fit 3.2 de Santos Andirá2.jpg','imagenes/Ropero Fit 3.2 de Santos Andirá3.jpg'], // Array de rutas
+        description_full: 'El Ropero Fit 3.2 de Santos Andirá es una solución compacta y funcional para dormitorios que necesitan aprovechar el espacio sin perder estilo. Su estructura de paneles de 12 mm brinda resistencia y durabilidad, mientras que sus 3 puertas y 2 cajones permiten organizar eficientemente ropa y accesorios.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Ropero Fit 3.2 de Santos Andirá',
+             '🔹 Código: 20877',
+             '🔹 Estructura 100% en paneles de 12 mm',
+             '🔹 3 puertas y 2 cajones',
+             '🔹 Cabideiro de aluminio resistente',
+             '🔹 Corrediças metálicas en los cajones',
+             '🔹 Puxadores de PVC duraderos',
+             '🔹 Pies de PVC para mayor estabilidad',
+             '🔹 Acabado brillante en Blanco, Jequitibá y Jequitibá-Off',
+             '🔹 Altura: 191 cm',
+             '🔹 Ancho: 69,3 cm',
+             '🔹 Profundidad: 42,2 cm'
+        ]
+    },
     
      
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE MUEBLES.
