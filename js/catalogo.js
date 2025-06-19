@@ -500,6 +500,25 @@ const productsData = [
             '🔹 Modelo: Pop Tank 5kg'
         ]
     },
+    {
+        id: 'Secarropas Mabe SME26N5XNBCT0 Carga Frontal - Blanco 20kg', // Coincide con data-id en HTML
+        name: 'Secarropas Mabe SME26N5XNBCT0 Carga Frontal - Blanco 20kg', // Nombre completo
+        images: ['imagenes/Secarropas Mabe SME26N5XNBCT0 Carga Frontal - Blanco 20kg.png','imagenes/Secarropas Mabe SME26N5XNBCT0 Carga Frontal - Blanco 20kg2.png','imagenes/Secarropas Mabe SME26N5XNBCT0 Carga Frontal - Blanco 20kg3.png'], // Array de rutas de imágenes
+        description_full: 'El Secarropas Mabe SME26N5XNBCT0 es una opción de alta capacidad (20 kg) ideal para familias grandes o negocios que requieren eficiencia y rendimiento superior. Su diseño de carga frontal y canasta de acero inoxidable garantizan durabilidad y cuidado de las prendas.', // Descripción detallada
+        characteristics: [ // Lista de características
+             '🔹 Producto: Secarropas Mabe SME26N5XNBCT0 20Kg Carga Frontal',
+             '🔹 Código: SME26N5XNBCT0',
+             '🔹 Capacidad: 20 kg',
+             '🔹 Carga: Frontal',
+             '🔹 3 niveles de temperatura ajustables',
+             '🔹 Ciclo sanitizante: elimina hasta el 99,9% de bacterias',
+             '🔹 Filtro atrapa pelusas para fácil mantenimiento',
+             '🔹 Canasta de acero inoxidable: mayor durabilidad',
+             '🔹 Tecnología Energy Saver Green: ahorro energético de hasta 10%',
+             '🔹 Sensores Ready 2 Wear: detectan nivel óptimo de secado',
+             '🔹 Dimensiones: 110 x 68,8 x 68,8 cm'
+        ]
+    },
     // BLOQUE PARA SECARROPA COLGANTE
     {
         id: 'Secarropas Mueller Colgante Solaris 8Kg', // Coincide con data-id en HTML
@@ -516,6 +535,24 @@ const productsData = [
             '🔹 Selector de aire caliente o frío según tipo de ropa',
             '🔹 Ideal para ambientes pequeños',
             '🔹 Conveniencia y funcionalidad en el secado diario'
+        ]
+    },
+    {
+        id: 'Secarropas Colgante Tokyo 8kgs', // Coincide con data-id en HTML
+        name: 'Secarropas Colgante Tokyo 8kgs', // Nombre completo
+        images: ['imagenes/Secarropas Colgante Tokyo 8kgs.png'], // Descripción detallada
+        characteristics: [ // Lista de características
+            '🔹 Producto: Secarropas Colgante Tokyo 8Kg',
+            '🔹 Código: 19010',
+            '🔹 Capacidad: 8 kg (ropa centrífugada)',
+            '🔹 Función antiarrugas',
+            '🔹 Temperatura máxima: 65°C',
+            '🔹 Temporizador de hasta 120 minutos',
+            '🔹 Incluye bolsa de secado, perchas y varillas',
+            '🔹 9 espacios para colgar ropa',
+            '🔹 Potencia: 1150 W',
+            '🔹 Medidas: 96 x 47 x 51 cm',
+            '🔹 Peso: 5,5 kg'
         ]
     },
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE LAVARROPAS Y SECARROPAS.
@@ -1408,7 +1445,86 @@ const productsData = [
              '🔹 Profundidad: 46,3 cm'
         ]
     },
-    
+    // EJEMPLO DEL POLTRONAS Y MUEBLES
+    {
+        id: 'Poltrona Liz Molufan', // Coincide con data-id en HTML
+        name: 'Poltrona Liz Molufan', // Nombre completo
+        images: ['imagenes/Poltrona Liz Molufan.png'], // Array de rutas
+        description_full: 'La Poltrona Liz de Molufan es sinónimo de elegancia, confort y calidad. Su estructura está construida con madera de reforestación (pino, eucalipto y MDF), tratada para resistir moho, termitas y microorganismos, asegurando durabilidad a largo plazo.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Poltrona Liz Molufan',
+             '🔹 Código: 21406',
+             '🔹 Estructura de madera reforestada (pino, eucalipto, MDF)',
+             '🔹 Inmunizada contra moho, termitas y microorganismos',
+             '🔹 Sustentación con cintas elásticas de alta resistencia',
+             '🔹 Respaldo fijo con espuma D26 y manta acrílica',
+             '🔹 Asiento con espuma D26 y manta acrílica',
+             '🔹 Brazos en espuma D20 y detalles en D16',
+             '🔹 Revestimiento variado: colores, patrones y texturas',
+             '🔹 Acabado inferior: Kami',
+             '🔹 Pies y brazos en madera maciza tintada',
+             '🔹 Medidas: Altura del brazo 0,65 m, asiento 0,48 m, respaldo 0,43 m, profundidad útil 0,52 m, altura del pie 0,21 m'
+        ]
+    },
+    {
+        id: 'Poltrona Onix de Molufan', // Coincide con data-id en HTML
+        name: 'Poltrona Onix de Molufan', // Nombre completo
+        images: ['imagenes/Poltrona Onix de Molufan.png'], // Array de rutas
+        description_full: 'La Poltrona Onix de Molufan combina elegancia, ergonomía y funcionalidad para transformar cualquier espacio. Fabricada con madera de reforestación tratada contra moho, termitas y microorganismos, garantiza una estructura firme y ecológica.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Poltrona Onix de Molufan',
+             '🔹 Código: 21410',
+             '🔹 Estructura de madera reforestada (pino, eucalipto, OSB)',
+             '🔹 Tratada contra moho, termitas y microorganismos',
+             '🔹 Asiento con espuma D26 + manta acrílica',
+             '🔹 Respaldo con espuma D20 + manta acrílica',
+             '🔹 Brazos en espuma D20, adornos en D16',
+             '🔹 Sustentación con cintas elásticas de alta resistencia',
+             '🔹 Revestimiento en varios colores, texturas y estampados',
+             '🔹 Base giratoria de aluminio',
+             '🔹 Acabado inferior en tela de ráfia',
+             '🔹 Dimensiones: Ancho 78 cm, Profundidad 75 cm, Altura 84 cm'
+        ] 
+    },
+    {
+        id: 'Poltrona Dakota', // Coincide con data-id en HTML
+        name: 'Poltrona Dakota', // Nombre completo
+        images: ['imagenes/Poltrona Dakota.png'], // Array de rutas
+        description_full: 'La Poltrona Dakota de Molufan es sinónimo de confort, estilo y durabilidad. Su estructura está fabricada con madera de reforestación (pinus, eucalipto y OSB), tratada especialmente contra hongos, termitas y microorganismos, lo que asegura larga vida útil.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Poltrona Dakota',
+             '🔹 Código: 21404',
+             '🔹 Estructura de madera reforestada (pinus, eucalipto, OSB)',
+             '🔹 Tratada contra hongos, termitas y microorganismos',
+             '🔹 Asiento con espuma D26 + manta acrílica',
+             '🔹 Respaldo con espuma D20 + manta acrílica',
+             '🔹 Brazos y adornos con espumas D20 y D16',
+             '🔹 Cintas elásticas de alta resistencia en asiento y respaldo',
+             '🔹 Revestimiento disponible en varios colores y texturas',
+             '🔹 Base giratoria de madera o pies fijos con zapatas plásticas',
+             '🔹 Acabado inferior en tela de ráfia',
+             '🔹 Dimensiones: Ancho 73 cm, Profundidad 82 cm, Altura 85 cm'
+        ] 
+    },
+    {
+        id: 'Poltrona Plaza', // Coincide con data-id en HTML
+        name: 'Poltrona Plaza', // Nombre completo
+        images: ['imagenes/Poltrona Plaza.png'], // Array de rutas
+        description_full: 'La Poltrona Dakota de Molufan es sinónimo de confort, estilo y durabilidad. Su estructura está fabricada con madera de reforestación (pinus, eucalipto y OSB), tratada especialmente contra hongos, termitas y microorganismos, lo que asegura larga vida útil.', // Descripción detallada
+        characteristics: [
+            '🔹 Producto: Poltrona Plaza',
+            '🔹 Código: 21409',
+            '🔹 Estructura de madera reforestada (pinus, eucalipto, OSB)',
+            '🔹 Tratada contra moho, termitas y microorganismos',
+            '🔹 Asiento y respaldo con espuma D26 + manta acrílica',
+            '🔹 Brazos con espuma D20 y adornos con espuma D16',
+            '🔹 Cintas elásticas de alta resistencia en respaldo y asiento',
+            '🔹 Revestimiento disponible en varios colores y texturas',
+            '🔹 Pies y brazos de madera teñida',
+            '🔹 Acabado inferior en tela de ráfia',
+            '🔹 Dimensiones: Ancho 75 cm, Profundidad 78 cm, Altura 88 cm'
+        ] 
+    },
      
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE MUEBLES.
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
