@@ -500,6 +500,24 @@ const productsData = [
             '🔹 Modelo: Pop Tank 5kg'
         ]
     },
+    // BLOQUE PARA SECARROPA COLGANTE
+    {
+        id: 'Secarropas Mueller Colgante Solaris 8Kg', // Coincide con data-id en HTML
+        name: 'Secarropas Mueller Colgante Solaris 8Kg', // Nombre completo
+        images: ['imagenes/Secarropas Mueller Colgante Solaris 8Kg.png','imagenes/Secarropas Mueller Colgante Solaris 8Kg2.png','imagenes/Secarropas Mueller Colgante Solaris 8Kg3.png','imagenes/Secarropas Mueller Colgante Solaris 8Kg4.png'], // Array de rutas de imágenes
+        description_full: 'El Secarropas Mueller Colgante Solaris 8Kg es una excelente opción para quienes buscan practicidad, ahorro de espacio y eficiencia en el secado de ropa. Con un diseño plegable y colgante, se adapta perfectamente a lavaderos, departamentos u hogares con poco espacio.', // Descripción detallada
+        characteristics: [ // Lista de características
+            '🔹 Producto: Secarropas Mueller Colgante Solaris 8Kg',
+            '🔹 Código: 7003',
+            '🔹 Capacidad: 8 kg',
+            '🔹 Diseño colgante y plegable: ahorra espacio',
+            '🔹 Incluye varillas y 5 perchas extraíbles',
+            '🔹 Sistema de giro fácil para mayor practicidad',
+            '🔹 Selector de aire caliente o frío según tipo de ropa',
+            '🔹 Ideal para ambientes pequeños',
+            '🔹 Conveniencia y funcionalidad en el secado diario'
+        ]
+    },
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE LAVARROPAS Y SECARROPAS.
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
     // !!! ASEGÚRATE DE QUE EL id COINCIDA EXACTAMENTE CON EL data-id EN EL HTML !!!
