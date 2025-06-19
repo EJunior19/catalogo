@@ -962,29 +962,97 @@ const productsData = [
 
     // --- EJEMPLO: PEQUEÑOS ELECTRODOMÉSTICOS ---
     {
-        id: 'batidora-planetaria-vwx', // Coincide con data-id en HTML
-        name: 'Batidora Planetaria Marca VWX', // Nombre completo
-        images: ['images/batidora1.jpg', 'images/batidora1_accesorios.jpg'], // Array de rutas
-        description_full: 'Batidora de pie con movimiento planetario, perfecta para preparar masas y mezclas de repostería y panadería con facilidad y potencia. Incluye varios accesorios.', // Descripción detallada
+        id: 'Plancha a Vapor Electrolux 2200W', // Coincide con data-id en HTML
+        name: 'Plancha a Vapor Electrolux 2200W', // Nombre completo
+        images: ['imagenes/Plancha a Vapor Electrolux 2200W.png', 'imagenes/Plancha a Vapor Electrolux 2200W2.png','imagenes/Plancha a Vapor Electrolux 2200W3.png','imagenes/Plancha a Vapor Electrolux 2200W4.png'], // Array de rutas
+        description_full: 'La Plancha a Vapor Electrolux 2200W es la aliada perfecta para mantener tu ropa impecable con rapidez y precisión. Su diseño cuenta con botones especiales para planchar entre puntas y bordes, ideal para camisas de vestir.', // Descripción detallada
         characteristics: [
-             'Potencia: 600W',
-             'Capacidad del Bowl: 4 Litros de Acero Inoxidable',
-             'Velocidades: 6 + Función Pulsador',
-             'Incluye Accesorios: Batidor de Alambre, Gancho Amasador, Batidor Plano'
+             '🔹 Producto: Plancha a Vapor Electrolux 2200W',
+             '🔹 Código: 16934',
+             '🔹 Botones especiales para puntas y bordes finos',
+             '🔹 Base PerfectGlide de cerámica con 64 salidas de vapor',
+             '🔹 Sistema de autolimpieza del depósito',
+             '🔹 Selector de temperatura ajustable',
+             '🔹 Sistema anti-goteo: evita manchas al planchar',
+             '🔹 Función de planchado en seco o a vapor',
+             '🔹 Indicador de base caliente para mayor seguridad',
+             '🔹 Chorro de vapor extra para arrugas difíciles',
+             '🔹 Empuñadura de goma y soporte trasero',
+             '🔹 Sistema antical que alarga la vida útil',
+             '🔹 Luz piloto que indica cuándo está lista',
+             '🔹 Depósito transparente con capacidad de 280 ml'
         ]
     },
      {
-        id: 'plancha-vapor-anti', // Coincide con data-id en HTML
-        name: 'Plancha a Vapor Antiadherente', // Nombre completo
-        images: ['images/plancha1.jpg'], // Array de rutas (1 imagen)
-        description_full: 'Plancha ligera y potente con suela antiadherente que se desliza suavemente sobre las telas, dejando tu ropa impecable en minutos. Calienta rápido.', // Descripción detallada
+        id: 'Plancha Tokyo Facilita con Spray', // Coincide con data-id en HTML
+        name: 'Plancha Tokyo Facilita con Spray', // Nombre completo
+        images: ['imagenes/Plancha Tokyo Facilita con Spray.png'], // Array de rutas (1 imagen)
+        description_full: 'La Plancha Tokyo Facilita con Spray es perfecta para quienes buscan practicidad y eficiencia al planchar. Con 1200W de potencia, calienta rápidamente y su suela antiadherente permite un deslizamiento suave sobre todo tipo de tela.', // Descripción detallada
         characteristics: [
-             'Tipo de Suela: Antiadherente',
-             'Potencia: 1200W',
-             'Función Golpe de Vapor',
-             'Sistema Antigoteo',
-             'Tanque de Agua: 200 ml',
-             'Control de Temperatura Ajustable'
+             '🔹 Producto: Plancha Tokyo Facilita con Spray',
+             '🔹 Código: 11891',
+             '🔹 Potencia de 1200W para calentamiento rápido',
+             '🔹 Suela antiadherente para mejor deslizamiento',
+             '🔹 Función spray que facilita el planchado',
+             '🔹 Control de temperatura ajustable',
+             '🔹 Depósito de agua de 200 ml',
+             '🔹 Cable de 1,8 metros giratorio',
+             '🔹 Diseño ergonómico y ligero',
+             '🔹 Sistema de seguridad con apagado automático'
+        ]
+    },
+    {
+        id: 'Plancha a vapor Arno Essential FV1051B2', // Coincide con data-id en HTML
+        name: 'Plancha a vapor Arno Essential FV1051B2', // Nombre completo
+        images: ['imagenes/Plancha a vapor Arno Essential FV1051B2.png','imagenes/Plancha a vapor Arno Essential FV1051B22.png'], // Array de rutas (1 imagen)
+        description_full: 'La Plancha a Vapor Arno Essential FV1051B2 combina practicidad, eficiencia y diseño compacto, ideal para el uso diario. Con 1100W de potencia, ofrece una excelente performance con impulso de vapor de 80 g/min, además de vapor vertical y función spray, facilitando la eliminación de arrugas en todo tipo de telas.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Plancha a Vapor Arno Essential FV1051B2',
+             '🔹 Código: 21078',
+             '🔹 Marca: Arno',
+             '🔹 Potencia: 1100W',
+             '🔹 Impulso de vapor: 80 g/min con función vertical y spray',
+             '🔹 Salida continua de vapor: 15 g/min',
+             '🔹 Capacidad del depósito: 180 ml',
+             '🔹 Suela antiadherente para mejor deslizamiento',
+             '🔹 Sistema Easycord para mayor comodidad al planchar',
+             '🔹 Medidas: Ancho 29,5 cm, Alto 15,5 cm, Largo 13 cm'
+        ]
+    },
+    //<!-- Bloque para una Licuadora - EJEMPLO -->
+    {
+        id: 'LICUADORA ARNO ULTRAFORCE MOD LN92 INOX 1400W', // Coincide con data-id en HTML
+        name: 'LICUADORA ARNO ULTRAFORCE MOD LN92 INOX 1400W', // Nombre completo
+        images: ['imagenes/LICUADORA ARNO ULTRAFORCE MOD LN92 INOX 1400W.png','imagenes/LICUADORA ARNO ULTRAFORCE MOD LN92 INOX 1400W2.png'], // Array de rutas (1 imagen)
+        description_full: 'La Licuadora Arno UltraForce Mod LN92 Inox 1400W es sinónimo de potencia y resistencia. Equipada con un motor de 1400W, está diseñada para triturar incluso los ingredientes más duros con facilidad, garantizando resultados perfectos en cada mezcla. Cuenta con vaso de vidrio ultra resistente de 2,2 litros, ideal para preparaciones en grandes cantidades, y 8 velocidades + función pulsar, que permiten ajustar la potencia según cada receta.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Licuadora Arno UltraForce MOD LN92 Inox',
+             '🔹 Código: 21345',
+             '🔹 Potencia: 1400W',
+             '🔹 Vaso de vidrio resistente con capacidad de 2,2 litros',
+             '🔹 8 velocidades + función pulsar',
+             '🔹 Tritura ingredientes duros con facilidad',
+             '🔹 Alta durabilidad y calidad de corte',
+             '🔹 Diseño elegante en acero inoxidable',
+             '🔹 Ideal para uso intensivo en cocina'
+        ]
+    },
+    //<!-- Bloque para una Batidora - EJEMPLO -->
+    {
+        id: 'BATIDORA ARNO CHEF RED 400W 5V CAP. 5 L', // Coincide con data-id en HTML
+        name: 'BATIDORA ARNO CHEF 5L 5VEL 400W RED', // Nombre completo
+        images: ['imagenes/BATIDORA ARNO CHEF 5L 5VEL 400W RED.png','imagenes/BATIDORA ARNO CHEF 5L 5VEL 400W RED2.png','imagenes/BATIDORA ARNO CHEF 5L 5VEL 400W RED3.png'], // Array de rutas (1 imagen)
+        description_full: 'Su bowl de 5 litros permite trabajar con grandes volúmenes, perfecta para repostería y cocina familiar. Su estructura robusta y motor confiable la hacen una aliada imprescindible en cualquier cocina. Disponible en color rojo intenso, aporta un toque moderno y vibrante al ambiente.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Batidora Arno Chef 5L Roja',
+             '🔹 Código: 19007',
+             '🔹 Potencia: 400W',
+             '🔹 Velocidades: 5 niveles de velocidad',
+             '🔹 Capacidad del bowl: 5 litros',
+             '🔹 Ideal para preparar mezclas, batidos y masas',
+             '🔹 Diseño moderno en color rojo',
+             '🔹 Dimensiones del empaque: 39,5 x 26 x 33 cm',
+             '🔹 Peso: 2,2 kg'
         ]
     },
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE PEQUEÑOS ELECTRODOMÉSTICOS.
@@ -1329,7 +1397,7 @@ const productsData = [
     // !!! ASEGÚRATE DE QUE EL id COINCIDA EXACTAMENTE CON EL data-id EN EL HTML !!!
 
     // >>> ¡AÑADE AQUÍ OBJETOS PARA CUALQUIER OTRA CATEGORÍA QUE TENGAS! <<<
-    // !!! SIEMPRE CON id, name, images:[], description_full, characteristics:[] !!!
+    // !!! SIEMPRE CON id, name, images:[], description_full, characteristics:[] !!!    
 ];
 
 
