@@ -30,9 +30,9 @@ body {
     right: 20px; /* Ajusta si es necesario */
 
     /* Apariencia del botón */
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente visible */
-    color: #76c3f7; /* Color del texto (gris claro) */
-    border: 2px solid #ececec; /* !!! Cambiado a 2px sólido para que el borde sea más visible !!! */
+    background-color: rgba(255, 136, 0, 0.1); /* Fondo ligeramente visible */
+    color: #ffffff; /* Color del texto (gris claro) */
+    border: 2px solid #ff8800; /* !!! Cambiado a 2px sólido para que el borde sea más visible !!! */
     padding: 5px 15px; /* Espacio alrededor del texto */
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Indica que es clickeable */
