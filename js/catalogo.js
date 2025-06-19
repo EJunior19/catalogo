@@ -1258,6 +1258,70 @@ const productsData = [
              '🔹 Profundidad: 42,2 cm'
         ]
     },
+    {
+        id: 'Ropero Fit 4.2 de Santos Andirá', // Coincide con data-id en HTML
+        name: 'Ropero Fit 4.2 de Santos Andirá', // Nombre completo
+        images: ['imagenes/Ropero Fit 4.2 de Santos Andirá.jpg', 'imagenes/Ropero Fit 4.2 de Santos Andirá2.jpg','imagenes/Ropero Fit 4.2 de Santos Andirá3.jpg'], // Array de rutas
+        description_full: 'El Ropero Fit 4.2 es una opción funcional y moderna para quienes buscan un ropero compacto pero con buena capacidad. Ofrece 4 puertas batientes con tiradores de PVC, 2 cajones internos, varias repisas, y un cabideiro de aluminio para prendas largas.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Ropero Fit 4.2 de Santos Andirá',
+             '🔹 Código: 20875',
+             '🔹 4 puertas batientes con tiradores en PVC',
+             '🔹 2 cajones con correderas metálicas',
+             '🔹 Amplias repisas internas',
+             '🔹 Cabideiro en aluminio para ropa larga',
+             '🔹 Estructura 100% en MDP de 12 mm',
+             '🔹 Pies en PVC para mayor estabilidad',
+             '🔹 Pintura UV con acabado brillante',
+             '🔹 Colores disponibles: Blanco, Jequitibá, Jequitibá-Off',
+             '🔹 Altura: 191 cm',
+             '🔹 Ancho: 69,3 cm',
+             '🔹 Profundidad: 42,2 cm'
+        ]
+    },
+    {
+        id: 'Ropero Fit 6.2 de Santos Andirá', // Coincide con data-id en HTML
+        name: 'Ropero Fit 6.2 de Santos Andirá', // Nombre completo
+        images: ['imagenes/Ropero Fit 6.2 de Santos Andirá.png', 'imagenes/Ropero Fit 6.2 de Santos Andirá2.jpg','imagenes/Ropero Fit 6.2 de Santos Andirá3.png'], // Array de rutas
+        description_full: 'El Ropero Fit 6.2 es una opción funcional y moderna para quienes buscan un ropero compacto pero con buena capacidad. Ofrece 4 puertas batientes con tiradores de PVC, 2 cajones internos, varias repisas, y un cabideiro de aluminio para prendas largas.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Ropero Fit 6.2 de Santos Andirá',
+             '🔹 Código: 20873',
+             '🔹 6 puertas batientes con bisagras metálicas',
+             '🔹 Tiradores en PVC de diseño moderno',
+             '🔹 2 cajones con correderas metálicas',
+             '🔹 Amplias repisas para ropa, accesorios y calzado',
+             '🔹 Cabideiro de aluminio para ropa larga',
+             '🔹 Estructura en MDP de 12 mm',
+             '🔹 Pies en PVC para mejor estabilidad y limpieza',
+             '🔹 Pintura UV con acabado brillante y resistente',
+             '🔹 Colores: Blanco, Jequitibá y Jequitibá-Off',
+             '🔹 Altura: 191 cm',
+             '🔹 Ancho: 137,2 cm',
+             '🔹 Profundidad: 42,2 cm'
+        ]
+    },
+    {
+        id: 'Ropero Nápoles 8.4 de Santos Andirá', // Coincide con data-id en HTML
+        name: 'Ropero Nápoles 8.4 de Santos Andirá', // Nombre completo
+        images: ['imagenes/Ropero Nápoles 8.4 de Santos Andirá.png', 'imagenes/Ropero Nápoles 8.4 de Santos Andirá2.jpg','imagenes/Ropero Nápoles 8.4 de Santos Andirá3.jpg'], // Array de rutas
+        description_full: 'El Ropero Fit 6.2 es una opción funcional y moderna para quienes buscan un ropero compacto pero con buena capacidad. Ofrece 4 puertas batientes con tiradores de PVC, 2 cajones internos, varias repisas, y un cabideiro de aluminio para prendas largas.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Ropero Nápoles 8.4 de Santos Andirá',
+             '🔹 Código: 20865',
+             '🔹 8 puertas batientes con bisagras metálicas',
+             '🔹 Tiradores en ABS de diseño moderno',
+             '🔹 11 estantes espaciosos',
+             '🔹 4 cajones con correderas telescópicas',
+             '🔹 3 tubos colgadores de aluminio para ropa larga',
+             '🔹 Fabricado en MDP y MDF de alta calidad',
+             '🔹 Acabado UV resistente y fácil de limpiar',
+             '🔹 Colores disponibles: Jatobá, Blanco, Jatobá/Areia, Jatobá/Grafite',
+             '🔹 Altura: 217,6 cm',
+             '🔹 Ancho: 212 cm',
+             '🔹 Profundidad: 46,3 cm'
+        ]
+    },
     
      
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE MUEBLES.
