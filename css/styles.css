@@ -22,12 +22,36 @@ body {
     line-height: 1.6;
     overflow-x: hidden; /* Evita scroll horizontal no deseado */
 }
+/* Botón de cerrar (para el modal principal) - Estilo con texto "SALIR" */
+.close-button {
+    /* Posicionamiento y tamaño */
+    position: absolute;
+    top: 15px; /* Ajusta si es necesario */
+    right: 20px; /* Ajusta si es necesario */
 
-/* Contenedor principal para centrar el contenido */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 15px; /* Padding arriba/abajo y a los lados */
+    /* Apariencia del botón */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente visible */
+    color: #BDC3C7; /* Color del texto (gris claro) */
+    border: 2px solid #566573; /* !!! Cambiado a 2px sólido para que el borde sea más visible !!! */
+    padding: 5px 15px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Indica que es clickeable */
+    font-size: 1em; /* Tamaño de fuente normal para el texto */
+    font-weight: normal; /* Peso normal */
+    text-align: center;
+    text-decoration: none; /* Asegura que no tenga subrayado si fuera un enlace */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* !!! Añadida transición para transform !!! */
+    z-index: 1050; /* Asegura que esté por encima de todo en el modal */
+    outline: none; /* Elimina el borde azul al hacer foco */
+}
+
+/* Efecto al pasar el mouse sobre el botón de cerrar */
+.close-button:hover {
+    background-color: rgba(46, 204, 113, 0.8); /* !!! Cambiado a un fondo verde semi-transparente al pasar el mouse !!! */
+    color: #ffffff; /* !!! Texto blanco puro al pasar el mouse !!! */
+    border-color: #39FF14; /* !!! <-- AQUÍ ESTÁ EL VERDE FOSFORESCENTE EN EL BORDE !!! */
+    transform: scale(1.1); /* !!! Ligeramente más grande al pasar el mouse para dar más interactividad !!! */
 }
 
 /* Título principal del catálogo */
