@@ -765,6 +765,23 @@ const productsData = [
         ]
     },
     {
+          id: 'Celular Xiaomi Redmi Note 14 PRO 8 RAM - 256GB Negro', // Coincide con data-id en HTML
+        name: 'Celular Xiaomi Redmi Note 14 PRO 8 RAM - 256GB Negro', // Nombre completo
+        images: ['imagenes/Celular Xiaomi Redmi Note 14 PRO 8 RAM - 256GB Negro.png','imagenes/Celular Xiaomi Redmi Note 14 PRO 8 RAM - 256GB Negro2.webp','imagenes/Celular Xiaomi Redmi Note 14 PRO 8 RAM - 256GB Negro3.png'], // Array de rutas
+        description_full: 'El Xiaomi Redmi Note 14 PRO 8+256GB en color Negro ofrece una experiencia premium a un precio accesible. Equipado con el poderoso procesador Helio G100-Ultra de ocho núcleos y tecnología de 6nm, este smartphone garantiza eficiencia energética y excelente rendimiento para tus tareas diarias y juegos exigentes.', // Descripción detallada
+        characteristics: [
+              '📱 Modelo: Xiaomi Redmi Note 14 PRO',
+              '🎨 Color: Negro',
+              '💾 RAM: 8 GB',
+              '💽 Almacenamiento: 256 GB (expandible hasta 1TB)',
+              '⚙️ Procesador: Helio G100-Ultra, 8 núcleos, hasta 2.2GHz',
+              '🧠 GPU: Mali-G57 MC2',
+              '📐 Dimensiones: 162,16 x 74,92 x 8,24 mm',
+              '⚖️ Peso: 180 g',
+              '🖥️ Pantalla AMOLED 6.67", FHD+ (2400x1080)'
+        ]
+    },
+    {
           id: 'Celular Iphone 13 128 GB 4 Ram 5G', // Coincide con data-id en HTML
         name: 'Celular Iphone 13 128 GB 4 Ram 5G', // Nombre completo
         images: ['imagenes/Celular Iphone 13 128 GB 4 Ram 5G.webp','imagenes/Celular Iphone 13 128 GB 4 Ram 5G2.webp','imagenes/Celular Iphone 13 128 GB 4 Ram 5G3.webp','imagenes/Celular Iphone 13 128 GB 4 Ram 5G4.webp'], // Array de rutas
@@ -1114,7 +1131,7 @@ const productsData = [
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
     // !!! ASEGÚRATE DE QUE EL id COINCIDA EXACTAMENTE CON EL data-id EN EL HTML !!!
 
-     // --- EJEMPLO: CABECERAS Y CAMAS ---
+    // --- EJEMPLO: CABECERAS Y CAMAS ---
     {
         id: 'Cabeceira Casal Bourbon de Santos Andirá', // Coincide con data-id en HTML
         name: 'Cabeceira Casal Bourbon de Santos Andirá', // Nombre completo
@@ -1525,6 +1542,178 @@ const productsData = [
             '🔹 Dimensiones: Ancho 75 cm, Profundidad 78 cm, Altura 88 cm'
         ] 
     },
+    // EJEMPLO DE SOFAS
+    {
+        id: 'Sofá Modular Arezzo de Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Modular Arezzo de Molufan', // Nombre completo
+        images: ['imagenes/Sofá Modular Arezzo de Molufan.png'], // Array de rutas
+        description_full: 'El Sofá Modular Arezzo de Molufan es la combinación ideal entre elegancia, confort y personalización. Su diseño versátil permite adaptar los módulos según tu espacio y estilo, brindando una solución completa para ambientes modernos.', // Descripción detallada
+        characteristics: [
+            '🛋️ Modelo: Sofá Modular Arezzo de Molufan',
+            '🪵 Estructura de madera tratada (pino, eucalipto y OSB)',
+            '🧼 Tratado contra moho, termitas y microorganismos',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🛏️ Respaldo: almohadas fijas con fibras y flocos',
+            '🧵 Revestimiento en varias texturas, colores y estampados',
+            '🛡️ Brazos: espuma D20 y detalles en D16',
+            '🧷 Cintas elásticas en asiento y respaldo para mayor soporte',
+            '🪑 Pies y brazos en madera teñida',
+            '🎯 Acabado inferior: tela ráfia protectora',
+            '📐 Dimensiones de módulos:',
+            '- Brazo sin madera: 16x86x65 cm',
+            '- Brazo con madera: 18x86x65 cm',
+            '- Módulo Arezzo: 70/98x92x89 cm',
+            '- Módulo 2 plazas: 140/196x92x89 cm',
+            '- Módulo con puff: 122/150x92x89 cm',
+            '- Módulo de esquina: 110x110x89 cm',
+            '- Puff con madera: 88x88x40 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Modular Athos', // Coincide con data-id en HTML
+        name: 'Sofá Modular Athos', // Nombre completo
+        images: ['imagenes/Sofá Modular Athos.png'], // Array de rutas
+        description_full: 'El Sofá Modular Athos combina un diseño moderno con la versatilidad de los módulos intercambiables, adaptándose perfectamente a distintos espacios. Está fabricado con madera de reforestación tratada, resistente a moho y microorganismos, garantizando durabilidad y sustentabilidad.', // Descripción detallada
+        characteristics: [
+            '🛋️ Modelo: Sofá Modular Athos',
+            '🪵 Estructura: madera de reforestación (pino, eucalipto, MDF) tratada contra moho y microorganismos',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🛏️ Respaldo: almohadas sueltas con fibras + manta acrílica',
+            '🛡️ Brazos: espuma D20 y detalles en D16',
+            '🧷 Sustentación: cintas elásticas en asiento y respaldo',
+            '🎨 Revestimiento: variedad de colores, texturas y estampados',
+            '🪑 Pies en MDF teñido',
+            '🎯 Acabado inferior: tela de alta calidad',
+            '📐 Dimensiones de módulos:',
+            '- Brazo Athos: 12x112x65 cm',
+            '- Módulo Athos Opción 1: 84x113x89 cm',
+            '- Módulo Athos Opción 2: 98x113x89 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Atualle Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Atualle Molufan', // Nombre completo
+        images: ['imagenes/Sofá Atualle Molufan.png'], // Array de rutas
+        description_full: 'El Sofá Atualle Molufan – Cod: 21431 ofrece el equilibrio perfecto entre comodidad, estilo y durabilidad. Su estructura está elaborada con madera de reforestación tratada para resistir moho y termitas, garantizando larga vida útil.', // Descripción detallada
+        characteristics: [
+            '🛋️ Modelo: Sofá Atualle Molufan – Cod: 21431',
+            '🪵 Estructura: madera de reforestación (pinus, eucalipto, OSB) tratada contra moho y termitas',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🛏️ Respaldo: almohadas fijas con fibras + manta acrílica',
+            '🛡️ Brazos: madera maciza con espuma D20 + adornos en D16',
+            '🧷 Sustentación: cintas elásticas de alta resistencia',
+            '🎨 Revestimiento: disponible en varios colores, texturas y estampados',
+            '🪑 Pies: madera teñida',
+            '🎯 Acabado inferior: tela de ráfia',
+            '📐 Medidas:',
+            '- 1 Plaza: 95x90x90 cm',
+            '- 2 Plazas: 165x90x90 cm',
+            '- 3 Plazas: 220x90x90 cm'
+        ] 
+    },
+    {
+        id: 'Bicama Eva Molufan', // Coincide con data-id en HTML
+        name: 'Bicama Eva Molufan', // Nombre completo
+        images: ['imagenes/Bicama Eva Molufan.png'], // Array de rutas
+        description_full: 'Bicama Eva Molufan – Cod: 21445. Incluye almohadas decorativas rellenas con fibras y copos de espuma, forradas con tela premium. Su sistema de apertura permite usarla como sofá durante el día y cama doble durante la noche, perfecta para optimizar espacios. Los pies de aluminio y el acabado inferior con tela de alta calidad completan su estética moderna y refinada.', // Descripción detallada
+        characteristics: [
+            '🛋️ Modelo: Bicama Eva Molufan – Cod: 21445',
+            '🪵 Estructura: madera de reforestación tratada (pinus, eucalipto, OSB)',
+            '🧠 Asiento y respaldo: espuma D26 + manta acrílica',
+            '🛡️ Brazos: espuma D23 | Adornos: D16',
+            '🎯 Sustentación: cintas elásticas de alta resistencia',
+            '🛏️ Almohadas: sueltas, rellenas con fibras y copos de espuma',
+            '🎨 Revestimiento: variedad de colores, texturas y estampados',
+            '🦿 Pies: aluminio',
+            '🧵 Acabado inferior: tela de alta calidad',
+            '📐 Medidas:',
+            '- Ancho: 193 cm',
+            '- Profundidad: 93 cm (cerrado) / 124 cm (abierto)',
+            '- Altura: 88 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Bugatti de Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Bugatti de Molufan', // Nombre completo
+        images: ['imagenes/Sofá Bugatti de Molufan.png'], // Array de rutas
+        description_full: 'Sofá Bugatti de Molufan – Cod: 21424. El asiento está compuesto por espuma D26 con manta acrílica, brindando firmeza con suavidad. El respaldo utiliza espuma D23/D20 soft, lo que aporta un soporte confortable y relajante. Los brazos y detalles están terminados en espuma D23/D20 y D16, para un toque acogedor.', // Descripción detallada
+        characteristics: [
+            '🛋️ Modelo: Sofá Bugatti Molufan – Cod: 21424',
+            '🪵 Estructura: madera tratada (pinus, eucalipto, MDF)',
+            '🧠 Asiento: espuma D26 con manta acrílica',
+            '🧘‍♂️ Respaldo: espuma soft D23/D20 + manta acrílica',
+            '🛡️ Brazos: espuma D23/D20 | Adornos: D16',
+            '🔗 Sustentación: cintas elásticas reforzadas',
+            '🎨 Revestimiento: variedad de colores y texturas',
+            '🦿 Pies: madera teñida',
+            '🔻 Acabado inferior: tela Kami protectora',
+            '📐 Medidas:',
+            '- 2 Plazas: 180x90x77 cm',
+            '- 3 Plazas: 240x90x77 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Encanto de Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Encanto de Molufan', // Nombre completo
+        images: ['imagenes/Sofá Encanto de Molufan.png'], // Array de rutas
+        description_full: 'El asiento utiliza espuma D26 con manta acrílica, asegurando firmeza sin perder confort. El respaldo es una almohada mullida rellena de fibras y flocos, cubierta con tela Kami de calidad y manta acrílica. Brazos y adornos reforzados con espumas D20 y D16, brindan elegancia y suavidad al contacto.', // Descripción detallada
+        characteristics: [
+            '🛋️ Sofá Encanto Molufan – Cod: 21426',
+            '🪵 Estructura: madera tratada (pinus, eucalipto, OSB)',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🧘‍♂️ Respaldo: almohada con fibras + tela Kami',
+            '🛡️ Brazos: D20 | Adornos: D16',
+            '🔗 Sustentación: cintas elásticas reforzadas',
+            '🎨 Revestimiento: variedad de colores y texturas',
+            '🦿 Pies: madera teñida',
+            '🔻 Acabado inferior: tela Kami',
+            '📐 Medidas disponibles:',
+            '- 1 Plaza: 98x93x90 cm',
+            '- 2 Plazas: 168x93x90 cm o 223x93x90 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Modular Ibiza de Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Modular Ibiza de Molufan', // Nombre completo
+        images: ['imagenes/Sofá Modular Ibiza de Molufan.png'], // Array de rutas
+        description_full: 'Diseñado para adaptarse a tu estilo y espacio, el Sofá Modular Ibiza combina elegancia, confort y funcionalidad. Su estructura de madera de reforestación tratada asegura resistencia al paso del tiempo, moho y termitas.', // Descripción detallada
+        characteristics: [
+            '🛋️ Sofá Modular Ibiza Molufan – Cod: 21456',
+            '🪵 Estructura: madera tratada (pino, eucalipto, MDF)',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🧘‍♂️ Respaldo: almohadas sueltas con fibras + flocos',
+            '🛡️ Brazos: D23 | Adornos: D23',
+            '🔗 Sustentación: cintas elásticas reforzadas',
+            '🎨 Revestimiento: variedad de colores, texturas y estampados',
+            '🦿 Pies: madera teñida',
+            '🔻 Acabado inferior: tela de alta calidad',
+            '📐 Dimensiones por módulo:',
+            '- Módulo: 90/100/110 x 160 x 43 cm',
+            '- Respaldo: 80 x 30 x 36 cm',
+            '- Almohada: 70 x 13 x 43 cm',
+            '- Puff: 48 x 160 x 43 cm',
+            '- Brazo: 17 x 160 x 64 cm'
+        ] 
+    },
+    {
+        id: 'Sofá Memphis de Molufan', // Coincide con data-id en HTML
+        name: 'Sofá Memphis de Molufan', // Nombre completo
+        images: ['imagenes/Sofá Memphis de Molufan.png'], // Array de rutas
+        description_full: 'Diseñado para quienes buscan elegancia, confort y durabilidad. El Sofá Memphis de Molufan combina un diseño sofisticado con materiales de alta calidad, ideal para destacar en cualquier ambiente del hogar.', // Descripción detallada
+        characteristics: [
+            '🛋️ Sofá Memphis Molufan – Cod: 21416',
+            '🪵 Estructura: madera tratada (pinus, eucalipto, MDF)',
+            '🧠 Asiento: espuma D26 + manta acrílica',
+            '🧘‍♂️ Respaldo y brazos: espuma D26 + detalles D16',
+            '🔗 Sustentación: cintas elásticas reforzadas',
+            '🎨 Revestimiento: gran variedad de colores y texturas',
+            '🦶 Base: pies discretos + tela Kami protectora',
+            '📐 Medidas disponibles:',
+            '- 3 Lugares: 252 x 108 x 83 cm',
+            '- 4 Lugares: 292 / 332 x 108 x 83 cm'
+        ] 
+    },
+    
      
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE MUEBLES.
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
