@@ -88,6 +88,7 @@
     
 
 /* Estilos básicos para el cuerpo de la página */
+/* Estilos básicos para el cuerpo de la página */
 body {
     font-family: 'Roboto', sans-serif; /* Fuente más moderna si tienes acceso o pruena 'Arial' */
     margin: 0;
@@ -96,6 +97,19 @@ body {
     color: #ECF0F1; /* Texto gris casi blanco por defecto */
     line-height: 1.6;
     overflow-x: hidden; /* Evita scroll horizontal no deseado */
+
+    /* !!! AÑADIR ESTO PARA DAR ESPACIO AL BUSCADOR !!! */
+    /* Calcula: padding superior + altura input + padding inferior del buscador */
+    /* Un valor aproximado podría ser 20px (top) + 10px (padding top) + 8px (input padding) + 20px (altura texto) + 8px (input padding) + 10px (padding bottom) = ~76px */
+    /* Vamos a darle un poco más para seguridad */
+    padding-top: 100px; /* Espacio arriba igual o mayor a la altura del buscador flotante */
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px; /* Padding arriba/abajo y a los lados (el padding superior del body ya da el espacio inicial) */
 }
 /* Botón de cerrar (para el modal principal) - Estilo con texto "SALIR" */
 .close-button {
@@ -134,7 +148,7 @@ h1 {
     text-align: center;
     color: #2ECC71; /* Verde brillante como acento */
     margin-bottom: 50px; /* Más espacio */
-    font-size: 35px; /* Tamaño grande */
+    font-size:35px; /* Tamaño grande */
     font-weight: bold;
     text-shadow: 0 0 15px rgba(46, 204, 113, 0.6); /* Sombra sutil verde */
     letter-spacing: 1.5px;
