@@ -1722,8 +1722,7 @@ const productsData = [
     // >>> ¡AÑADE AQUÍ OBJETOS PARA CUALQUIER OTRA CATEGORÍA QUE TENGAS! <<<
     // !!! SIEMPRE CON id, name, images:[], description_full, characteristics:[] !!!    
 ];
-
-
+      
 // --- 2. Obtener referencias a elementos HTML ---
 const modal = document.getElementById('product-modal'); // El modal de detalles del producto
 const modalImage = document.getElementById('modal-product-image'); // La imagen principal DENTRO del modal de detalles
@@ -1745,6 +1744,10 @@ const amplifyButton = document.getElementById('amplify-button'); // Botón Ampli
 const amplifyOverlay = document.getElementById('amplify-overlay'); // La capa oscura de pantalla completa
 const amplifiedImage = document.getElementById('amplified-image'); // La imagen DENTRO de la capa de ampliación
 const closeOverlayButton = document.querySelector('.close-overlay-button'); // Botón cerrar CAPA AMPLIACIÓN
+
+// Referencias a los elementos del buscador
+const searchInput = document.getElementById('search-input'); // <--- !!! NUEVA REFERENCIA !!!
+const allProductItems = document.querySelectorAll('.product-item'); // <--- !!! REFERENCIA A TODOS LOS PRODUCTOS !!!
 
 
 // Variables para controlar la galería (Mismas que antes)
@@ -1951,6 +1954,30 @@ if (productItems) { // Verificar si productItems fue seleccionado correctamente
 } else {
     console.error("No se encontraron elementos con la clase 'product-item'."); // Log de error
 }
+// --- !!! NUEVA FUNCIÓN DE BÚSQUEDA EN TIEMPO REAL !!! ---
+function filterProducts() {
+    const searchTerm = searchInput.value.toLowerCase(); // Obtiene el texto del input y lo convierte a minúsculas
+    console.log("Buscando:", searchTerm); // Log para depuración
+
+    // Usamos allProductItems que ya seleccionamos al inicio
+    allProductItems.forEach(item => {
+        // Obtenemos el nombre y la descripción corta del producto en minúsculas
+        const productName = item.querySelector('h3').textContent.toLowerCase();
+        const productDescription = item.querySelector('p').textContent.toLowerCase();
+
+        // Comprueba si el término de búsqueda está en el nombre O la descripción del producto
+        if (productName.includes(searchTerm) || productDescription.includes(searchTerm)) {
+            item.style.display = 'flex'; // Muestra el producto (usamos flex porque .product usa display:flex)
+            // Opcional: Mostrar la sección de categoría si alguno de sus productos se muestra
+            // Requires traversing up the DOM to the category-section
+        } else {
+            item.style.display = 'none'; // Oculta el producto
+        }
+    });
+
+    // Opcional: Ocultar secciones de categoría si todos sus productos están ocultos
+    // Esto es más avanzado y requiere iterar sobre las secciones y contar productos visibles dentro de cada una.
+}
 
 
 // Asignar el evento 'click' a los botones de navegación de la galería
@@ -1988,7 +2015,14 @@ if (closeOverlayButton) { // Verificar si el botón de cerrar overlay fue selecc
 } else {
     console.error("Botón de cerrar overlay no encontrado con selector '.close-overlay-button'."); // Log de error
 }
-
+// --- !!! ASIGNAR EVENT LISTENER AL INPUT DE BÚSQUEDA !!! ---
+if (searchInput) { // Verifica si el elemento del buscador fue encontrado
+    // Llama a filterProducts cada vez que el usuario escribe o borra en el campo
+    searchInput.addEventListener('input', filterProducts);
+    console.log("Event listener asignado a input de búsqueda."); // Log para depuración
+} else {
+    console.error("Campo de búsqueda (search-input) no encontrado."); // Log de error si el elemento no existe
+}
 
 // Cerrar la capa de ampliación haciendo clic en el fondo oscuro
 if (amplifyOverlay) { // Verificar si el overlay fue seleccionado
