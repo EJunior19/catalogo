@@ -1127,6 +1127,139 @@ const productsData = [
              '🔹 Peso: 2,2 kg'
         ]
     },
+    //<!-- Bloque para un Horno - EJEMPLO -->
+    {
+        id: 'Horno de Mesa Eléctrico Fischer Gourmet Grill 44L', // Coincide con data-id en HTML
+        name: 'Horno de Mesa Eléctrico Fischer Gourmet Grill 44L', // Nombre completo
+        images: ['imagenes/Horno de Mesa Eléctrico Fischer Gourmet Grill 44L blanco.png','imagenes/Horno de Mesa Eléctrico Fischer Gourmet Grill 44L negro.png','imagenes/Horno de Mesa Eléctrico Fischer Gourmet Grill 44L inox.png','imagenes/Horno de Mesa Eléctrico Fischer Gourmet Grill 44L interior.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Eléctrico Fischer Gourmet Grill de 44L es la elección ideal para quienes buscan un equipo práctico, potente y versátil. Diseñado para ofrecer un cocinado uniforme y resultados dorados irresistibles, este horno de sobremesa combina tecnología y funcionalidad en un tamaño compacto.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Fischer Gourmet Grill 44L – Cod: 21499',
+             '⚡ Voltaje: 220V',
+             '📦 Capacidad: 44 litros',
+             '🪟 Puerta con 2 capas de vidrio: mejor aislamiento térmico',
+             '🌡️ Rango de temperatura: 50 °C – 320 °C',
+             '⏱️ Termostato y timer: control preciso de cocción',
+             '🍗 Función de cocción: dorar y gratinar',
+             '🧺 Accesorios: 1 rejilla metálica',
+             '📐 Dimensiones:',
+             '   - Ancho: 57.5 cm',
+             '   - Alto: 37 cm',
+             '   - Profundidad: 52 cm',
+             '⚖️ Peso: 14.21 kg',
+             '👌 Fácil de usar y limpiar: ideal para el día a día en la cocina'
+        ]
+    },
+    {
+        id: 'Horno Eléctrico Mueller Fratello 44 Litros', // Coincide con data-id en HTML
+        name: 'Horno Eléctrico Mueller Fratello 44 Litros', // Nombre completo
+        images: ['imagenes/Horno Eléctrico Mueller Fratello 44 Litros.png','imagenes/Horno eléctrico Mueller Fratello 44 litros gris.png','imagenes/Horno eléctrico Mueller Fratello 44 litros rojo.png','imagenes/Horno Eléctrico Mueller Fratello 44 Litros interior.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Eléctrico Mueller Fratello de 44 litros es la combinación ideal de practicidad, eficiencia y diseño funcional para tu cocina. Su generosa capacidad permite cocinar una gran variedad de platos, desde pizzas y tortas hasta carnes y gratinados.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Eléctrico Mueller Fratello 44L',
+             '📦 Capacidad: 44 litros',
+             '🥩 Parrilla interna para cocción uniforme',
+             '🧼 Bandeja de goteo: evita derrames de grasa',
+             '⏱️ Temporizador de hasta 120 minutos',
+             '🌡️ Control de temperatura hasta 260 °C con perilla',
+             '🪟 Puerta con visor y apertura lateral',
+             '🍞 Función grill/dorador integrada',
+             '👌 Ideal para pizzas, carnes, tortas y más',
+             '💡 Fácil de usar y limpiar: perfecto para uso diario'
+        ]
+    },
+    {
+        id: 'HORNO ELECTRICO SPEED 60LTS CONVECTOR C/SPIEDO 2200W', // Coincide con data-id en HTML
+        name: 'HORNO ELECTRICO SPEED 60LTS CONVECTOR C/SPIEDO 2200W', // Nombre completo
+        images: ['imagenes/HORNO ELECTRICO SPEED 60LTS CONVECTOR C-SPIEDO 2200W NEGRO.png','imagenes/HORNO ELECTRICO SPEED 60LTS CONVECTOR C-SPIEDO 2200W NEGRO2.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Eléctrico Speed de 60 litros es la opción perfecta para quienes buscan un electrodoméstico potente, versátil y con gran capacidad. Equipado con 6 resistencias blindadas, garantiza una cocción uniforme y rápida, ideal para preparar desde asados hasta tortas y panes.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Eléctrico Speed 60L – Convector y Spiedo',
+             '📦 Capacidad: 60 litros',
+             '⚡ Potencia: 2200W',
+             '🔥 6 resistencias blindadas: cocción uniforme',
+             '🌪️ Función de convección: calor homogéneo',
+             '🍗 Spiedo giratorio: ideal para asar pollos',
+             '🍞 Función asador para gratinados perfectos',
+             '⏱️ Temporizador de 60 minutos',
+             '📏 Dimensiones: 67 x 36 x 44 cm (Ancho x Alto x Prof)',
+             '👌 Ideal para hogares exigentes y uso intensivo'
+        ]
+    },
+    {
+        id: 'HORNO MUELLER ELECT 44L SAPORE', // Coincide con data-id en HTML
+        name: 'HORNO MUELLER ELECT 44L SAPORE', // Nombre completo
+        images: ['imagenes/Horno Mueller Sapore 44L NEGRO2.png','imagenes/Horno Mueller Sapore 44L NEGRO.png','imagenes/Horno Mueller Sapore 44L BLANCO.png','imagenes/Horno Mueller Sapore 44L BLANCO2.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Eléctrico Mueller Sapore de 44 litros combina diseño moderno, funcionalidad y eficiencia para facilitar tu día a día en la cocina. Con 1750W de potencia, este horno garantiza un rendimiento excelente para preparar desde carnes hasta tortas y guarniciones con resultados deliciosos.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Eléctrico Mueller Sapore 44L',
+             '💡 Luz interna automática: control visual sin abrir la puerta',
+             '⏲️ Timer de 120 minutos con alarma sonora',
+             '🧼 Fondo autolimpiante: limpieza práctica y rápida',
+             '🥩 Grill superior: gratinado perfecto',
+             '⚡ Potencia: 1750W',
+             '📐 Dimensiones: 58 x 36 x 52 cm (Ancho x Alto x Prof)',
+             '🎨 Disponible en: Blanco, Negro e Inox',
+             '🧁 Ideal para hornear, dorar y gratinar todo tipo de platos'
+        ]
+    },
+    {
+        id: 'HORNO ELECTRICO TOKYO EXQUISITE 45 LTS 300 GRADOS NEGRO', // Coincide con data-id en HTML
+        name: 'HORNO ELECTRICO TOKYO EXQUISITE 45 LTS 300 GRADOS NEGRO', // Nombre completo
+        images: ['imagenes/HORNO ELECTRICO TOKYO EXQUISITE 45 LTS 300 GRADOS NEGRO.png'], // Array de rutas (1 imagen)
+        description_full: 'Con una temperatura máxima de hasta 300°C, este horno es perfecto para hornear, gratinar y asar diferentes tipos de alimentos. Incluye luz interna, luz piloto, interior antiadherente, bandeja de cocción y 2 rejillas metálicas, garantizando versatilidad y facilidad de uso. Además, cuenta con una agarradera práctica para manipular los alimentos con seguridad.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Eléctrico Tokyo Exquisite 45L – Cod: 21719',
+             '🌡️ Temperatura máxima: 300°C',
+             '🔲 Puerta con doble vidrio: mayor retención de calor',
+             '💡 Luz interna + luz piloto: visibilidad total durante la cocción',
+             '🧼 Interior antiadherente: fácil de limpiar',
+             '🍽️ Incluye bandeja de cocción + 2 rejillas metálicas',
+             '🖤 Frente espejado y diseño moderno en color negro',
+             '🖐️ Agarradera cómoda y segura',
+             '📐 Medidas del producto: 60x43x35 cm',
+             '📦 Packaging: 43x34x31 cm | Peso: 7,17 kg'
+        ]
+    },
+    {
+        id: 'Horno Eléctrico Mueller Air MFB35G 35 L. Negro', // Coincide con data-id en HTML
+        name: 'Horno Eléctrico Mueller Air MFB35G 35 L. Negro', // Nombre completo
+        images: ['imagenes/Horno Eléctrico Mueller Air MFB35G 35 L. Negro.png','imagenes/Horno Eléctrico Mueller Air MFB35G 35 L. Negro2.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Eléctrico Mueller Air MFB35G de 35 litros (Cod: 17313) es la solución ideal para quienes buscan rendimiento, diseño moderno y practicidad en la cocina. Con una capacidad de 35 litros, este horno es perfecto para preparar porciones generosas sin ocupar demasiado espacio.', // Descripción detallada
+        characteristics: [
+             '🔥 Air Horno Mueller Plata – 2 en 1 (horno + freidora)',
+             '🍟 Función freidora: cocina sin aceite con acabado crujiente',
+             '🌀 Función turbo: ideal para recetas grandes',
+             '🧊 Función descongelar + mantener caliente',
+             '📦 Capacidad: 35 litros',
+             '🧽 Interior esmaltado Total Clean: fácil de limpiar',
+             '📐 Estante con 5 niveles de altura',
+             '🧊 Puerta con doble vidrio y aislamiento térmico total',
+             '🌡️ Temperatura ajustable: 50°C a 250°C',
+             '⏱️ Timer con alarma y apagado automático',
+             '💡 Luz interna con encendido automático',
+             '⚡ Potencia: 1800W | Voltaje: 220V / 50Hz',
+             '📏 Medidas internas: 25 x 37 x 38 cm',
+             '📏 Medidas externas: 39 x 48 x 45 cm'
+        ]
+    },
+    {
+        id: 'HORNO AIR FRYER TOKYO 34 LTS TURBO 9 FUNCIONES 2000W', // Coincide con data-id en HTML
+        name: 'HORNO AIR FRYER TOKYO 34 LTS TURBO 9 FUNCIONES 2000W', // Nombre completo
+        images: ['imagenes/HORNO AIR FRYER TOKYO 34 LTS TURBO 9 FUNCIONES 2000W.png','imagenes/Horno Eléctrico Air Fryer Tokyo Turbo 34 Lts.png'], // Array de rutas (1 imagen)
+        description_full: 'El Horno Air Fryer Tokyo 34 Litros Turbo combina la potencia de un horno tradicional con la practicidad de una freidora de aire, brindándote una experiencia de cocción más saludable y versátil. Equipado con 9 funciones inteligentes, permite preparar una amplia variedad de recetas con facilidad, desde asados hasta snacks crujientes sin aceite.', // Descripción detallada
+        characteristics: [
+             '🔥 Horno Air Fryer Tokyo Turbo 34L – Cod: 20706',
+             '🍟 Capacidad: 34 litros',
+             '⚡ Potencia: 2000W',
+             '⏱️ Timer: 60 minutos',
+             '🌡️ Temperatura máxima: 230 °C',
+             '🔄 9 funciones de cocción (hornear, asar, freír, etc.)',
+             '🧊 Puerta doble vidrio: mejor aislamiento térmico',
+             '🍽️ Accesorios incluidos: bandeja + rejilla + canasta',
+             '📏 Dimensiones: 42 x 56 x 45 cm'
+        ]
+    },
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE PEQUEÑOS ELECTRODOMÉSTICOS.
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
     // !!! ASEGÚRATE DE QUE EL id COINCIDA EXACTAMENTE CON EL data-id EN EL HTML !!!
