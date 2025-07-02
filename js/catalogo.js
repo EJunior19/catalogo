@@ -356,6 +356,26 @@ const productsData = [
         ]
     },
     {
+        id: 'LAVARROPAS MIDAS AUTO CELESTE FRONTAL 6KG BLANCO', // Coincide con data-id en HTML
+        name: 'LAVARROPAS MIDAS AUTO CELESTE FRONTAL 6KG BLANCO', // Nombre completo
+        images: ['imagenes/LAVARROPAS MIDAS AUTO CELESTE FRONTAL 6KG BLANCO.png'], // Array de rutas de imágenes
+        description_full: 'El Lavarropas Midas Auto Celeste Frontal 6kg es la combinación perfecta entre tecnología, eficiencia y diseño. Su formato Slim lo hace ideal para espacios reducidos, mientras que su panel digital LCD ofrece una experiencia de uso moderna y práctica.', // Descripción detallada
+        characteristics: [ // Lista de características
+             '🧺 Lavarropas Midas Auto Celeste 6kg – Cod: 19957',
+             '📟 Control digital con panel LCD',
+             '📏 Diseño Slim ideal para espacios pequeños',
+             '⚡ Voltaje: 220V / 50Hz',
+             '⚙️ Centrifugado: 1000 RPM',
+             '🌀 12 programas de lavado',
+             '🔥 Calienta agua hasta 90°C',
+             '⏳ Inicio diferido y pausa de funcionamiento',
+             '🦶 Patas niveladoras para mayor estabilidad',
+             '🎛️ Controles simples y ergonómicos',
+             '🧩 Incluye manguera y llave para seguridad',
+             '👕 Programas: Algodón, Súper Eco, Sport, Delicado, Lana, Edredón, Diario, Sintético, Rápido, Aclarado + Centrifugado, Centrifugado'
+        ]
+    },
+    {
         id: 'Secarropas Electrolux Carga Frontal 6kg Blanco', // Coincide con data-id en HTML
         name: 'Secarropas Electrolux Carga Frontal 6kg Blanco', // Nombre completo
         images: ['imagenes/Secarropas Electrolux Carga Frontal 6kg Blanco.png','imagenes/Secarropas Electrolux Carga Frontal 6kg Blanco2.png','imagenes/Secarropas Electrolux Carga Frontal 6kg Blanco3.jpg','imagenes/Secarropas Electrolux Carga Frontal 6kg Blanco4.png'], // Array de rutas de imágenes
@@ -1845,6 +1865,27 @@ const productsData = [
             '- 3 Lugares: 252 x 108 x 83 cm',
             '- 4 Lugares: 292 / 332 x 108 x 83 cm'
         ] 
+    },
+    // EJEMPLO RACK Y PANELES
+    {
+        id: 'Poltrona Liz Molufan', // Coincide con data-id en HTML
+        name: 'Poltrona Liz Molufan', // Nombre completo
+        images: ['imagenes/Poltrona Liz Molufan.png'], // Array de rutas
+        description_full: 'La Poltrona Liz de Molufan es sinónimo de elegancia, confort y calidad. Su estructura está construida con madera de reforestación (pino, eucalipto y MDF), tratada para resistir moho, termitas y microorganismos, asegurando durabilidad a largo plazo.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Poltrona Liz Molufan',
+             '🔹 Código: 21406',
+             '🔹 Estructura de madera reforestada (pino, eucalipto, MDF)',
+             '🔹 Inmunizada contra moho, termitas y microorganismos',
+             '🔹 Sustentación con cintas elásticas de alta resistencia',
+             '🔹 Respaldo fijo con espuma D26 y manta acrílica',
+             '🔹 Asiento con espuma D26 y manta acrílica',
+             '🔹 Brazos en espuma D20 y detalles en D16',
+             '🔹 Revestimiento variado: colores, patrones y texturas',
+             '🔹 Acabado inferior: Kami',
+             '🔹 Pies y brazos en madera maciza tintada',
+             '🔹 Medidas: Altura del brazo 0,65 m, asiento 0,48 m, respaldo 0,43 m, profundidad útil 0,52 m, altura del pie 0,21 m'
+        ]
     },
     
      
