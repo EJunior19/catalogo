@@ -1866,28 +1866,173 @@ const productsData = [
             '- 4 Lugares: 292 / 332 x 108 x 83 cm'
         ] 
     },
-    // EJEMPLO RACK Y PANELES
+    // EJEMPLO MUEBLES Y KIT COCINAS
     {
-        id: 'Poltrona Liz Molufan', // Coincide con data-id en HTML
-        name: 'Poltrona Liz Molufan', // Nombre completo
-        images: ['imagenes/Poltrona Liz Molufan.png'], // Array de rutas
-        description_full: 'La Poltrona Liz de Molufan es sinónimo de elegancia, confort y calidad. Su estructura está construida con madera de reforestación (pino, eucalipto y MDF), tratada para resistir moho, termitas y microorganismos, asegurando durabilidad a largo plazo.', // Descripción detallada
+        id: 'Cocina Cris', // Coincide con data-id en HTML
+        name: 'Cocina Cris 1,85', // Nombre completo
+        images: ['imagenes/Cocina Cris.png'], // Array de rutas
+        description_full: 'Fabricada en MDP resistente, con frentes blancos y estructura en madera natural (freijó o nogal), ofrece un diseño atractivo y actual. Incluye puertas, cajón con guías metálicas, nicho para microondas, repisas y estantes, todo pensado para facilitar tu día a día.', // Descripción detallada
         characteristics: [
-             '🔹 Producto: Poltrona Liz Molufan',
-             '🔹 Código: 21406',
-             '🔹 Estructura de madera reforestada (pino, eucalipto, MDF)',
-             '🔹 Inmunizada contra moho, termitas y microorganismos',
-             '🔹 Sustentación con cintas elásticas de alta resistencia',
-             '🔹 Respaldo fijo con espuma D26 y manta acrílica',
-             '🔹 Asiento con espuma D26 y manta acrílica',
-             '🔹 Brazos en espuma D20 y detalles en D16',
-             '🔹 Revestimiento variado: colores, patrones y texturas',
-             '🔹 Acabado inferior: Kami',
-             '🔹 Pies y brazos en madera maciza tintada',
-             '🔹 Medidas: Altura del brazo 0,65 m, asiento 0,48 m, respaldo 0,43 m, profundidad útil 0,52 m, altura del pie 0,21 m'
+             '🔹 Producto: Cocina Cris 1.85 m',
+             '🔹 Código: 20979',
+             '🔹 Dimensiones: 1,85 m de largo × 0,50 m de profundo × 1,98 m de alto',
+             '🔹 Material: MDP de 12 a 15 mm',
+             '🔹 Acabado: Pintura UV mate',
+             '🔹 Diseño bicolor: estructura en tono madera (freijó o nogal) con frentes blancos',
+             '🔹 Almacenamiento: 4 a 6 puertas y 1 cajón con guías metálicas',
+             '🔹 Incluye nicho para microondas u horno',
+             '🔹 Estantes abiertos y repisas para organización práctica',
+             '🔹 Bisagras metálicas y pies de polietileno resistentes',
+             '🔹 Sistema de montaje: en kit con manual y herrajes incluidos',
+             '🔹 Garantía: 3 a 6 meses según versión'
+
         ]
     },
-    
+    {
+        id: 'Cocina Cris 1,20', // Coincide con data-id en HTML
+        name: 'Cocina Cris 1,20', // Nombre completo
+        images: ['imagenes/Cocina Cris 1,20.png'], // Array de rutas
+        description_full: 'Con 4 puertas, 1 cajón metálico y un nicho superior para microondas o decoración, permite organizar fácilmente utensilios, vajilla o víveres. Fabricado en MDP con pintura UV, combina durabilidad, limpieza sencilla y una estética contemporánea.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit de Cocina Cris 1,20 m',
+             '🔹 Código: 20980',
+             '🔹 Dimensiones: 1,20 m de ancho (otros detalles según versión)',
+             '🔹 Diseño compacto: ideal para departamentos, oficinas o cocinas auxiliares',
+             '🔹 Almacenamiento: 4 puertas y 1 cajón con rieles metálicos',
+             '🔹 Nicho superior para microondas, horno eléctrico o decoración',
+             '🔹 Material: MDP con pintura UV de alta resistencia',
+             '🔹 Acabado: moderno, fácil de limpiar y duradero',
+             '🔹 Pies plásticos regulables: evitan contacto con la humedad del piso',
+             '🔹 Tiradores: ergonómicos en ABS, cómodos y modernos',
+             '🔹 Montaje: en kit con manual y herrajes incluidos',
+            '🔹 Garantía: consultar versión'
+                        ]
+    },
+    {
+        id: 'Cocina Kappesberg Compacta (R780-CNOW)', // Coincide con data-id en HTML
+        name: 'Cocina Kappesberg Compacta (R780-CNOW)', // Nombre completo
+        images: ['imagenes/Cocina Kappesberg.png','imagenes/Cocina Kappesberg2.png'], // Array de rutas
+        description_full: 'La Cocina Kappesberg Compacta (R780-CNOW) es la elección perfecta para quienes buscan robustez, diseño y practicidad en un solo mueble. Con estructura en MDP de 15 mm y pintura premium en tono canela con frentes off white mate, esta cocina eleva el nivel de cualquier ambiente.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Cocina Kappesberg Compacta R780-CNOW',
+             '🔹 Código: 21368',
+             '🔹 Estructura en MDP de 15 mm con pintura touch en 7 capas',
+             '🔹 Colores: estructura canela + frentes off white mate',
+             '🔹 Diseño modular de 3 piezas: base, alzada y módulo lateral',
+             '🔹 Incluye nicho para horno o microondas y estantes abiertos',
+             '🔹 Almacenamiento: 7 puertas batientes y 3 cajones con guías metálicas',
+             '🔹 Estantes internos: 5 para máxima organización',
+             '🔹 Tiradores de aluminio en color bronze',
+             '🔹 Pies regulables en polipropileno',
+             '🔹 Tampo incluido: facilita instalación de fregadero o superficie de trabajo',
+             '🔹 Montaje: en kit con tornillos Philips y manual incluido',
+             '🔹 Garantía: 3 meses (asistencia recomendada para montaje)'
+        ]
+    },
+    {
+        id: 'Kit 2 Hornos Viena', // Coincide con data-id en HTML
+        name: 'Kit 2 Hornos Viena', // Nombre completo
+        images: ['imagenes/Kit 2 Hornos Viena.png'], // Array de rutas
+        description_full: 'El Kit 2 Hornos Viena 6180.7 (Cod: 18632) es una excelente opción para quienes buscan versatilidad, organización y diseño contemporáneo en la cocina. Con un acabado refinado en tono madera cálida (Freijo) combinado con frentes en gamuza, su estilo bicolor aporta elegancia a cualquier ambiente.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit 2 Hornos Viena 6180.7',
+             '🔹 Código: 18632',
+             '🔹 Diseño bicolor: estructura Freijo con frentes gamuza',
+             '🔹 Acabado con pintura UV: más resistencia y estilo',
+             '🔹 Equipado con 2 nichos superiores para hornos o microondas',
+             '🔹 Incluye 4 puertas para almacenaje adicional',
+             '🔹 Estantes interiores: 2 niveles para utensilios o vajilla',
+             '🔹 Cajón con guías telescópicas para cierre suave',
+             '🔹 Tiradores en ABS color champagne',
+             '🔹 Patas regulables en altura para mayor estabilidad',
+             '🔹 Herrajes metálicos con sistema de fijación fixer',
+             '🔹 Montaje sencillo y duradero con manual incluido'
+            ]
+    },
+    {
+        id: 'Kit Cocina 6 Puertas 1 Cajon Lagos 6190 Indekes Freijo', // Coincide con data-id en HTML
+        name: 'Kit Cocina 6 Puertas 1 Cajon Lagos 6190 Indekes Freijo', // Nombre completo
+        images: ['imagenes/KIT COC 6P 1GAV LAGOS 6190 IND FRE-PLOMO.png','imagenes/KIT COC 6P 1GAV LAGOS 6190 IND FRE-PLOMO2.png'], // Array de rutas
+        description_full: 'Cuenta con 6 puertas (3 empotradas), 1 cajón con correderas metálicas y un mostrador de 90 cm, ideal para guardar utensilios, vajilla o víveres. Incluye tiradores en MDF, bisagras metálicas y patas plásticas, lo que lo convierte en un mueble resistente y adaptable.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit Cocina 6 Puertas 1 Cajón Lagos 6190 Indekes',
+             '🔹 Código: 21292',
+             '🔹 Kit práctico y versátil, ideal para espacios reducidos',
+             '🔹 Material: MDP de 15 mm',
+             '🔹 Acabado: pintura UV con borde de melamina',
+             '🔹 Bisagras metálicas y correderas metálicas',
+             '🔹 Tiradores en MDF de diseño moderno',
+             '🔹 Patas plásticas de apoyo',
+             '🔹 Sistema de fijación con tornillos fixer',
+             '🔹 Composición: 3 puertas empotradas y mostrador de 90 cm',
+             '🔹 Almacenamiento: 6 puertas y 1 cajón empotrado',
+             '🔹 No apto para instalación de pileta',
+             '🔹 Dimensiones: 0,90 × 1,78 × 0,36 m',
+             '🔹 Peso: 38,1 kg',
+             '🔹 Montaje: en kit con manual incluido'   
+            ]
+    },
+    {
+        id: 'KIT COCINA 4P. VENETO 6181.1 IND', // Coincide con data-id en HTML
+        name: 'KIT COCINA 4P. VENETO 6181.1 IND', // Nombre completo
+        images: ['imagenes/KIT COCINA 4P. VENETO 6181.1 IND.png','imagenes/KIT COCINA 4P. VENETO 6181.1 IND2.png','imagenes/KIT COCINA 4P. VENETO 6181.1 IND3.png'], // Array de rutas
+        description_full: 'Incluye 4 puertas y un cajón amplio, perfecto para guardar utensilios, vajilla u otros objetos de cocina de forma organizada. Los tiradores en color champagne aportan un toque elegante al conjunto.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit Cocina 4 Puertas Veneto 6181.1 IND',
+             '🔹 Código: 19839',
+             '🔹 Kit compacto y práctico para cocinas pequeñas',
+             '🔹 Material: chapa de 12 mm',
+             '🔹 Acabado: revestido con pintura UV',
+             '🔹 Almacenamiento: 4 puertas y 1 cajón amplio',
+             '🔹 Cajón ideal para organizar utensilios del hogar',
+             '🔹 Tiradores color champagne de estilo moderno',
+             '🔹 Montaje sencillo con manual y herrajes incluidos'
+   
+            ]
+    },
+    {
+        id: 'KIT COCINA SOPHIA (MOVEISSUL)', // Coincide con data-id en HTML
+        name: 'KIT COCINA SOPHIA (MOVEISSUL)', // Nombre completo
+        images: ['imagenes/KIT COCINA SOPHIA (MOVEISSUL).png'], // Array de rutas
+        description_full: 'El Kit Cocina Sophia (Cod: 19028) de MoveisSul es una opción versátil y elegante para quienes buscan organización y estilo en un solo mueble. Con diseño modular y compacto, este kit ofrece 4 puertas, 1 cajón con guías metálicas y un nicho ideal para microondas u horno, optimizando al máximo el uso del espacio.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit Cocina Sophia (MoveisSul)',
+             '🔹 Código: 19028',
+             '🔹 Modular con 4 puertas, 1 cajón y nicho para microondas u horno',
+             '🔹 Compartimento superior con adega para botellas u organizadores',
+             '🔹 Parte inferior con 3 puertas y 1 cajón con guías metálicas',
+             '🔹 Material: MDP con pintura UV mate',
+             '🔹 Acabado en tonos madera (carvalho o angelim)',
+             '🔹 Frentes en color grafito o pistache de estilo contemporáneo',
+             '🔹 Bisagras metálicas para mayor durabilidad',
+             '🔹 Tiradores en ABS cromados o teka',
+             '🔹 Pies regulables: permiten nivelar en pisos irregulares',
+             '🔹 Montaje: se entrega en kit con manual e instrucciones'
+         ]
+    },
+    {
+        id: 'KIT COCINA MILANO 11P. 2G. 2175 FIO', // Coincide con data-id en HTML
+        name: 'KIT COCINA MILANO 11P. 2G. 2175 FIO', // Nombre completo
+        images: ['imagenes/KIT COCINA MILANO 11P. 2G. 2175 FIO.png'], // Array de rutas
+        description_full: 'Con una estructura de 2,20 m de ancho, este mueble cuenta con 11 puertas, 2 cajones con guías telescópicas metálicas, múltiples estantes internos y un nicho integrado para microondas u horno, todo pensado para maximizar la funcionalidad.', // Descripción detallada
+        characteristics: [
+             '🔹 Producto: Kit Cocina Milano 11P. 2G. 2175 FIO',
+             '🔹 Código: 20638',
+             '🔹 Dimensiones: 2,20 m de ancho',
+             '🔹 Almacenamiento: 11 puertas y 2 cajones con guías telescópicas metálicas',
+             '🔹 Nicho integrado para horno o microondas a altura ideal',
+             '🔹 Incluye estantes y compartimentos funcionales',
+             '🔹 Acabado en Freijo + Off-White o Grafite con pintura UV',
+             '🔹 Tiradores en ABS de diseño contemporáneo',
+             '🔹 Estructura en MDP de 15 mm: robusta y duradera',
+             '🔹 Patas regulables en PVC',
+             '🔹 Bisagras a presión para apertura suave',
+             '🔹 Sistema de montaje con tornillos y pernos',
+             '🔹 Montaje: en kit con manual incluido'
+
+         ]
+    },
+
      
     // >>> COPIA AQUÍ LOS OBJETOS PARA TUS PRODUCTOS REALES DE MUEBLES.
     // !!! CADA OBJETO DEBE TENER id, name, images:[], description_full, characteristics:[] !!!
